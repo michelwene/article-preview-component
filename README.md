@@ -61,8 +61,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solução URL: [https://github.com/michelwene/intro-component-with-signup-form](https://github.com/michelwene/intro-component-with-signup-form)
-- Site URL: [https://michelwene.github.io/intro-component-with-signup-form/](https://michelwene.github.io/intro-component-with-signup-form/)
+- Solução URL: [https://michelwene.github.io/article-preview-component/](https://michelwene.github.io/article-preview-component/)
+- Site URL: [https://michelwene.github.io/article-preview-component/](https://michelwene.github.io/article-preview-component/)
 
 ## Meu processo
 
