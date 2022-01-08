@@ -1,0 +1,16 @@
+.image-container {
+  background: url(../images/drawers.jpg);
+  background-size: cover;
+  height: 20rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 820px) {
+  .image-container {
+    border-radius: 1.5rem 0 0 1.5rem;
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+  }
+
+}

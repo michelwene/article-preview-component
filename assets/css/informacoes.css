@@ -1,0 +1,149 @@
+.card__rodape {
+  align-items: center;
+  background: #ffff;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 1rem 3.2rem 2rem;
+}
+
+.autor {
+  display: flex;
+}
+
+.imagem__autor {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+}
+
+.sobre {
+  align-self: center;
+  font-size: 1.1rem;
+  padding-left: 1.5rem;
+}
+
+.sobre__nome {
+  color: var(--var-Azul-acizentado-escuro);
+}
+
+.sobre__data {
+  color: var(--var-Azul-acizentado);
+  font-size: 1.2rem;
+}
+
+.seta {
+  align-items: center;
+  background: var(--var-Azul-acizentado-claro);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  height: 3.2rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+  width: 3.2rem;
+  z-index: 10;
+
+}
+
+.compartilhar {
+  align-items: center;
+  background: var(--var-Azul-acizentado-escuro);
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  bottom: 0;
+  display: flex;
+  left: 0;
+  opacity: 0;
+  padding: 0 3.2rem;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  visibility: hidden;
+  width: 100%;
+}
+
+.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.seta:hover {
+  background: var(--var-Azul-acizentado);
+}
+
+.seta:active {
+  transform: scale(0.98);
+}
+
+.seta:hover img {
+  filter: brightness(100);
+  transition: none;
+}
+
+.compartilhar p {
+  color: var(--var-Azul-acizentado);
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+  padding-right: 2rem;
+  text-transform: uppercase;
+}
+
+ul {
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding-right: 1.5rem;
+}
+
+a img:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 820px) {
+  .card__rodape {
+    border-bottom-right-radius: 1.5rem;
+    padding: 0 3.2rem 3.2rem 4.5rem;
+  }
+
+  .seta {
+    margin-right: 0.7rem;
+  }
+
+  h3 {
+    padding-bottom: 0.3rem;
+  }
+
+  .compartilhar {
+    height: 5.3rem;
+    left: 26.8rem;
+    border-radius: 1rem;
+    bottom: 10rem;
+    top: -7.8rem;
+    width: 20rem;
+  }
+
+  .compartilhar:after {
+    background-color: #48556a;
+    bottom: -0.8rem;
+    content: "";
+    height: 1.6rem;
+    left: 46%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 1.6rem;
+  }
+
+  .sobre__nome{
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 8px;
+  }
+
+  .sobre__data{
+    font-size: 14px;
+  }
+}

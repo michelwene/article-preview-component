@@ -3,12 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="icon"
       type="image/png"
@@ -24,32 +18,73 @@
   </head>
   <body class="app">
     <main class="conteudo">
+      <div class="image-container"></div>
       <section class="card">
-        <span class="moveis"
-          ><img
-            src="./assets/images/drawers.jpg"
-            alt="Móveis"
-            class="imagem__moveis"
-        /></span>
         <div class="descricao">
-          <h1 class="descricao__titulo">
+          <h2 class="descricao__titulo">
             Shift the overall look and feel by adding these wonderful touches to
             furniture in your home
-          </h1>
-          <p class="descricao__paragrafo">
+          </h2>
+          <p class="descricao__texto">
             Ever been in a room and felt like something was missing? Perhaps it
-            felt slightly bare and uninviting. Iv’ve got some simple tips to
-            help you make any room feel complete.
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
           </p>
         </div>
-        <div class="informacoes">
-          <span class="informacoes__autor">
-            <h2 class="informacoes__autor--nome">Michelle Appleton</h2>
-            <p class="informacoes__autor--dataEdicao">28 Jun 2020</p>
-          </span>
-          <button class="informacoes__compartilhar"></button>
-        </div>
+        <footer class="card__rodape">
+          <div class="autor">
+            <img
+              src="./assets/images/avatar-michelle.jpg"
+              alt="michelle appleton avatar"
+              class="imagem__autor"
+            />
+
+            <div class="sobre">
+              <h3 class="sobre__nome">Michelle Appleton</h3>
+              <time datetime="2020-06-28" class="sobre__data">28 Jun 2020</time>
+            </div>
+          </div>
+          <div class="seta">
+            <img src="./assets/images/icon-share.svg" alt="share" />
+          </div>
+          <div class="compartilhar">
+            <p>share</p>
+            <ul>
+              <li>
+                <a href="#">
+                  <img
+                    src="./assets/images/icon-facebook.svg"
+                    alt="facebook icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="./assets/images/icon-twitter.svg"
+                    alt="twitter icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/michelwene/"
+                  ><img
+                    src="./assets/images/icon-linkedin.svg"
+                    alt="linkedin icon"
+                /></a>
+              </li>
+              <li>
+                <a href="https://github.com/michelwene"><img src="./assets/images/icon-github.svg" alt="github icon" /></a>
+              </li>
+            </ul>
+          </div>
+        </footer>
       </section>
     </main>
+    <script src="./main.js"></script>
   </body>
 </html>
+
+
+
+
